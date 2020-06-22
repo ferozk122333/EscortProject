@@ -1,0 +1,256 @@
+@media (min-width: 1025px) and (max-width: 1200px){
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+.buttomHeader {
+    height: auto; 
+    padding-top: 10px;
+}
+.buttomHeader ul.nav {
+    justify-content: center;
+}
+.buttomHeader ul.nav li {
+    padding: 10px;
+}
+.gallery-Area{
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.media {
+    display: unset;
+}
+.media img {
+    width: 100%;
+}
+.media p{
+	margin-left: 0;
+	padding-top: 20px;
+}
+.buttonGellary {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer-menu-group {
+    grid-template-columns: 1fr 1fr;
+}
+.nationality-group {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+ul.contact-menu-list {
+    margin: 30px auto;
+    padding: 30px 0;
+}
+.verified-Area {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.topmargin h2,.heading{
+	font-size: 24px;
+}
+.middleHeader ul.nav li{
+	padding-right: 4px;
+}
+.middleHeader ul.nav li a,.headerTop li a {
+    font-size: 12px;
+    font-weight: 700;
+}
+}
+@media (min-width: 568px) and (max-width: 767px){
+.buttomHeader {
+    height: auto; 
+    padding-top: 10px;
+}
+.buttomHeader ul.nav {
+    justify-content: center;
+}
+.buttomHeader ul.nav li {
+    padding: 10px;
+}
+.gallery-Area{
+	grid-template-columns: 1fr 1fr;
+}
+.media {
+    display: unset;
+}
+.media img {
+    width: 100%;
+}
+.media p{
+	margin-left: 0;
+	padding-top: 20px;
+}
+.buttonGellary {
+    grid-template-columns: 1fr 1fr;
+}
+.footer-menu-group {
+    grid-template-columns: 1fr 1fr;
+}
+.nationality-group {
+    grid-template-columns: 1fr 1fr ;
+}
+ul.contact-menu-list {
+    margin: 30px auto;
+    padding: 30px 0;
+}
+.verified-Area {
+    grid-template-columns: 1fr 1fr ;
+}
+ul.service-menu-list,ul.securedHotel-menu-list {
+    width: 100%;
+}
+.heading,.topmargin h2{
+	font-size: 24px;
+}
+.headerTop {
+    height: 0px;
+}
+.middleHeader {
+    display: none;
+}
+.stikyOn {
+    display: none;
+}
+.slicknav_menu {
+    position: sticky;
+    top: 0;
+    z-index: 9999999;
+    right: 0;
+    padding: 0;
+    background-color: #0c1c23;
+}
+.slicknav_menu .slicknav_menutxt {
+    display: none;
+}
+.slicknav_btn {
+    margin: 0px 0 0px;
+}
+.slicknav_btn {
+    background-color: #0e2525;
+    z-index: 999999;
+    padding: 18px 20px;
+    background-color: #0c1c23;
+}
+.slicknav_nav a {
+    font-size: 18px;
+}
+.slicknav_nav a span {
+    padding-right: 10px;
+}
+}
+@media (min-width: 320px) and (max-width: 480px){
+.buttomHeader {
+	height: auto; 
+	padding-top: 10px;
+}
+.buttomHeader ul.nav {
+    justify-content: center;
+}
+.buttomHeader ul.nav li {
+    padding: 10px 5px;
+}
+.buttomHeader li a {
+    padding: 6px 10px;
+    background-color: #2c3a2c;
+    margin-right: 0px;
+}
+.heading {
+    font-size: 24px;
+    margin: 0;
+    margin-top: 0px; 
+}
+.gallery-Area{
+	grid-template-columns: 1fr;
+}
+.topmargin h2 {
+    font-size: 18px;
+    text-decoration: underline;
+}
+.media {
+    display: unset;
+}
+.media img {
+    width: 100%;
+}
+.media p{
+	margin-left: 0;
+	padding-top: 20px;
+}
+.buttonGellary {
+    grid-template-columns: 1fr;
+}
+.footer-menu-group {
+    grid-template-columns: 1fr;
+}
+.nationality-group {
+    grid-template-columns: 1fr;
+}
+ul.contact-menu-list {
+    margin: 60px auto;
+    padding: 30px 0;
+}
+.verified-Area {
+    grid-template-columns: 1fr;
+}
+ul.nav.social-font li {
+    padding-right: 10px;
+}
+.footer-group {
+    height: 600px;
+}
+.footer-text p {
+    font-size: 12px;
+}
+ul.service-menu-list,ul.securedHotel-menu-list{
+	width: 100%;
+    margin: 50px auto;
+    padding: 10px 0;
+}
+ul.securedHotel-menu-list li {
+	width: 100%;
+    padding-left: 10px;
+}
+ul.contact-menu-list h1 {
+    font-size: 30px;
+}
+ul.contact-menu-list {
+    width: 100%;
+}
+.smallImage .owl-nav button.owl-prev,.smallImage .owl-nav button.owl-next {
+    font-size: 24px;
+}
+.service-right td, th, .rateLeft td, th {
+    font-size: 14px;
+}
+.headerTop {
+    height: 0px;
+}
+.middleHeader {
+    display: none;
+}
+.stikyOn {
+    display: none;
+}
+.slicknav_menu {
+    position: sticky;
+    top: 0;
+    z-index: 9999999;
+    right: 0;
+    padding: 0;
+    background-color: #0c1c23;
+}
+.slicknav_menu .slicknav_menutxt {
+    display: none;
+}
+.slicknav_btn {
+    margin: 0px 0 0px;
+}
+.slicknav_btn {
+    background-color: #0e2525;
+    z-index: 999999;
+    padding: 18px 20px;
+    background-color: #0c1c23;
+}
+.slicknav_nav a {
+    font-size: 18px;
+}
+.slicknav_nav a span {
+    padding-right: 10px;
+}
+}
