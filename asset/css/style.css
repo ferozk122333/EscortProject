@@ -28,9 +28,6 @@ body{
 p{
     margin: 0;
 }
-.headerTop {
-    height: 60px;
-}
 .stikyOn {
     position: fixed;
     left: 0;
