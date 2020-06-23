@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  	<title>Bootstrap 4 Example</title>
+<head>
+  	<title>Zblack</title>
   	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" href="asset/css/fonts">
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 	<!-- fontawesome css link -->
 	<link rel="stylesheet" href="asset/css/all.min.css">
@@ -15,10 +15,13 @@
 	<!-- carousel css link -->
 	<link rel="stylesheet" href="asset/css/owl.carousel.min.css">
 	<link rel="stylesheet" href="asset/css/owl.theme.default.min.css">
+	<!-- sidebar css -->
+	<link rel="stylesheet" href="asset/css/slicknav.min.css">
 	<!-- style css link -->
 	<link rel="stylesheet" href="asset/css/style.css">
 	<!-- responsive css link -->
 	<link rel="stylesheet" href="asset/css/responsive.css">
+</head>
 </head>
 <body>
 	<section>
@@ -88,7 +91,7 @@
 						<div class="row bgl">
 							<div class="col-md-12">
 								<div class="largeImage">
-									<img id="zoom_01" src='asset/img/choose.png' data-zoom-image="asset/img/choose.png"/ width="100%" height="500px">
+									<img id="zoom_01" src='asset/img/lg2.jpg' data-zoom-image="asset/img/lg2.jpg" />
 								</div>
 								<div class="smallImage owl-carousel" id="thmb-image">
 									<div class="card">
@@ -119,10 +122,12 @@
 												<td colspan="4" style="text-align: center;">avalible for</td>
 											</tr>
 											<tr>
-												<td colspan="4">incall <span>private apartment</span></td>
+												<td colspan="1">incall</td>
+												<td colspan="3">private apartment</td>
 											</tr>
 											<tr>
-												<td colspan="4">Outcall <span>hotel visits only</span></td>
+												<td colspan="1">Outcall</td>
+												<td colspan="3">hotel visits only</td>
 											</tr>
 											<tr>
 												<td colspan="4" style="text-align: center;">incall <span>outcall</span></td>
@@ -305,34 +310,13 @@
 	<script src="asset/js/all.min.js"></script>
 	<!-- js link fencybox -->
 	<script src="asset/js/jquery.fancybox.min.jss"></script>
-	<!-- ja wow-min-js -->
-	<script src="asset/js/wow.min.js"></script>
 	<!-- carousel js -->
 	<script src="asset/js/owl.carousel.min.js"></script>
+	<!-- sidebar js -->
+	<script src="asset/js/jquery.slicknav.min.js"></script>
 	<!-- jooom -->
 	<script src="asset/js/jquery.elevateZoom-3.0.8.min.js"></script>
 	<!-- active link active -->
 	<script src="asset/js/active.js"></script>
-
-
-	<script>
-    	new WOW().init();
-    	
-    	$("#zoom_01").elevateZoom({
-    		gallery:'thmb-image',
-    		zoomType: "inner",
-  			cursor: "crosshair",
-    		galleryActiveClass: 'active',
-    		imageCrossfade: true,
-    	}); 
-
-		// $("#zoom_01").bind("click", function(e) {  
-		//   var ez =   $('#zoom_01').data('elevateZoom');	
-		// 	$.fancybox(ez.getGalleryList());
-		//   return false;
-		// }); 
-
-    </script>
-
 </body>
 </html>

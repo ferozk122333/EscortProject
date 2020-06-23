@@ -346,6 +346,8 @@ ul.service-menu-list li a:hover{
 .rateLeft table tr td{
     padding-right: 25px;
     padding-left : 25px;
+    outline: 1px solid #5c714f;
+    outline-offset: 1px;
 }
 .service-flax table,.rateLeft table {
     border-collapse: unset;
@@ -375,6 +377,10 @@ div#thmb-image a img {
 }
 .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
     display: block;
+}
+.largeImage #zoom_01 {
+    width: 100%;
+    height: 500px;
 }
 .smallImage .owl-nav button.owl-prev {
     position: absolute;
@@ -547,8 +553,4 @@ ul.contact-menu-list li a {
 ul.contact-menu-list li a:hover{
     color: #4cb5b5;
 }
-/*slick nav css*/
 
-/*.slicknav_menu {
-    display:none;
-}*/

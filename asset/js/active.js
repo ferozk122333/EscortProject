@@ -9,7 +9,7 @@ $(document).ready(function(){
 		responsiveClass:true,
 	    responsive:{
 	        0:{
-	            items:1,
+	            items:2,
 	        },
 	        481:{
 	            items:2
@@ -40,6 +40,18 @@ $(document).ready(function(){
 	        }
 	    }
 	});
+	
+	// slicknav js
+	$(function(){
+        $('#menu').slicknav();
+    });
+
+	// elevateZoom js
+	$("#zoom_01").elevateZoom({
+		gallery:'thmb-image',
+		zoomType: "inner",
+			cursor: "crosshair"
+	}); 
  });
 
 
